@@ -1,11 +1,10 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import { Button } from 'react-bootstrap';
 import { Container } from "react-bootstrap";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Image } from "react-bootstrap";
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
 
 import Main from "./cycle.webp";
 import Pic1 from "./pic1.webp";
@@ -32,6 +31,7 @@ function Home() {
         <div><Image img alt="date style" src={Pic4} className="pic" /></div>
 
       </div>
+      <Footer />
     </Container>
   );
 }
