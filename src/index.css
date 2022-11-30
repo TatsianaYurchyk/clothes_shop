@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,11 +14,6 @@ code {
     monospace;
 }
 
-/* .line {
-  border-bottom: 1px solid #f00;
-} */
-
-/* Header style start */
 .line {
   font-size: 30px;
   font-weight: bold;
@@ -47,6 +43,7 @@ code {
   margin-left: 30px;
   font-size: 20px;
   
+  
 }
 
 .material-symbols-outlined {
@@ -60,6 +57,8 @@ code {
   text-align: right;
   margin-right: 30px;
   font-size: 15px;
+  
+  
 }
 .account{
  scale: 1.1;
@@ -67,7 +66,11 @@ code {
 }
 .logIn{
   margin:0 19px 10px 5px;
-  color:palevioletred
+  color:palevioletred;
+ 
+ vertical-align: 50px;
+ line-height: 180%;
+ 
 }
 
 .menu {
@@ -79,7 +82,56 @@ code {
 
 /* Header style end */
 
+/* Home page style start */
+
 .main_image{
   width:100%;
-
 }
+
+.round {
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  /* line-height: 3em;   */
+  text-align: center;  
+  vertical-align: center;
+  background: black;
+  color: white;
+  position: absolute;
+  top: 19em; left: 13em;
+  font-family: 'Playfair Display', serif;
+}
+
+.adv_text{
+  position: relative;
+  top: 4em;
+}
+.adv_text2{
+  position: relative;
+  top: 2em;
+}
+.link{
+color: lightcoral;
+text-decoration: none;
+}
+.link:hover{
+  color: lightcoral;
+ cursor: pointer;
+  }
+
+.link::after{
+  content: '\BB';
+}
+
+.wrapper_pic {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
