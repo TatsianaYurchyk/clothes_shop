@@ -228,11 +228,11 @@ text-decoration: none;
 }
 
 .slider-img-prev {
-  transform: translateX(-100%);
+  transform: translateX(-10%);
 }
 
 .slider-img-next {
-  transform: translateX(100%);
+  transform: translateX(10%);
 }
 
 
