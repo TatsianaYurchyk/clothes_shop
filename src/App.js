@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home';
+import Lookbook from './pages/Lookbook';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Home/>
+      {/* <Home/> */}
+      <Lookbook/>
     </div>
   );
 }

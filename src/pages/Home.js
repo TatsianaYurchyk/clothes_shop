@@ -7,12 +7,11 @@ import Col from 'react-bootstrap/Col';
 import { Image } from "react-bootstrap";
 
 import Main from "./cycle.webp";
-import Pic1 from "./pic1.webp";
-import Pic2 from "./pic2.webp";
-import Pic3 from "./pic3.webp";
-import Pic4 from "./pic4.webp";
-import Pic5 from "./pic5.webp";
-import Pic6 from "./pic6.webp";
+import Pic1 from "../img/home_page/pic1.webp";
+import Pic2 from "../img/home_page/pic2.webp";
+import Pic3 from "../img/home_page/pic3.webp";
+import Pic4 from "../img/home_page/pic4.webp";
+
 
 
 function Home() {
@@ -25,10 +24,14 @@ function Home() {
       <p className="line"><span>summer 2023</span></p>
 
       <div class="wrapper_pic">
-        <div> <Image img alt="relax style" src={Pic1} className="pic" /></div>
-        <div><Image img alt="holiday style" src={Pic2} className="pic" /></div>
-        <div><Image img alt="casual style" src={Pic3} className="pic" /></div>
-        <div><Image img alt="date style" src={Pic4} className="pic" /></div>
+        <div className="container_pic"> <Image img alt="relax style" src={Pic1} className="pic" />
+        <div class="overlay">Relax style</div></div>
+        <div className="container_pic"><Image img alt="holiday style" src={Pic2} className="pic" />
+        <div class="overlay">Holiday style</div></div>
+        <div className="container_pic"><Image img alt="casual style" src={Pic3} className="pic" />
+        <div class="overlay">Casual style</div></div>
+        <div className="container_pic"><Image img alt="romantic style" src={Pic4} className="pic" />
+        <div class="overlay">Romantic style</div></div>
 
       </div>
       <Footer />

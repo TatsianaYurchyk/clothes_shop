@@ -27,11 +27,11 @@ const Header = () => {
         </Col>
       </Row>
       <Row className='menu'>
-        <Col>HOME</Col>
-        <Col>SHOP</Col>
-        <Col>LOOKBOOK</Col>
-        <Col>WHERE TO BUY</Col>
-        <Col>VISIT US</Col>
+        <Col className='menu_link'>HOME</Col>
+        <Col className='menu_link'>SHOP</Col>
+        <Col className='menu_link'>LOOKBOOK</Col>
+        <Col className='menu_link'>WHERE TO BUY</Col>
+        <Col className='menu_link'>VISIT US</Col>
       </Row>
 
         </Container>

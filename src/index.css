@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,6 +14,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 
 .line {
   font-size: 30px;
@@ -38,6 +40,7 @@ code {
   z-index: 0;
 }
 
+/* ------------Header style start-------------- */
 .shipping{
   text-align: left;
   margin-left: 30px;
@@ -76,13 +79,26 @@ code {
 .menu {
   background-color: black;
   color: white;
+  height: 50px;
+  vertical-align: middle;
+  line-height: 50px;
   /* margin: 10px; */
-  padding: 5px 12px;
+  /* padding: 5px 12px; */
+  /* margin: 0px 12px; */
 }
 
-/* Header style end */
+.menu_link {
+  padding: 0;
+}
 
-/* Home page style start */
+.menu_link:hover, .menu_link:active{
+  background-color: palevioletred ;
+}
+
+
+/* ------------Header style end-------------- */
+
+/* ------------Home page style start--------- */
 
 .main_image{
   width:100%;
@@ -116,6 +132,7 @@ text-decoration: none;
 }
 .link:hover{
   color: lightcoral;
+  opacity: 80%;
  cursor: pointer;
   }
 
@@ -136,6 +153,89 @@ text-decoration: none;
   
 }
 
+.container_pic{
+  position: relative;
+}
+/* .overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); Black clear */
+  /* color: #f1f1f1;
+  width: 100%;
+  height: 130px;
+  line-height: 130px;
+  transition: .6s  ease;
+  opacity:0;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+} */
+
+.overlay{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  opacity:0;
+  font-family: 'Lobster', cursive;
+  color: #262626;
+  font-size: 40px;
+  text-align: center;
+}
+
+.container_pic:hover .overlay {
+  opacity: 1;
+}
+.container_pic:hover .pic {
+  opacity: 0.3;
+}
+/* ------------Home page style end-------------- */
+
+/* ------------Lookbook page style start------- */
+/* .slider_img{
+  height:550px;
+  width: 390px;
+} */
+.slider {
+  position: relative;
+  width: 390px;
+  height: 550px;
+  object-fit: cover;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  /* object-fit: contain; */
+
+}
+
+.slider-img {
+  position: absolute;
+  /* width: 390px;
+  height: 550px; */
+  /* object-fit: contain; */
+  left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;  
+}
+
+.slider-img-prev {
+  transform: translateX(-100%);
+}
+
+.slider-img-next {
+  transform: translateX(100%);
+}
+
+
+/* ------------Lookbook page style end------- */
+
+/* ------------Footer style start-------------- */
+
 .footer{
   background-color: black;
   color: white;
@@ -149,15 +249,15 @@ text-decoration: none;
   
   padding: 10px 10px 0px 20px;
   margin-top: 20px;
-  font-size: 10px;
+  font-size: 14px;
 }
 .media{
   scale: 0.3;
   position: absolute;
   left: 80%;
-  top: -40%;
+  top: -30%;
   cursor: pointer;
-  
-
 }
+
+/* ------------Footer style end-------------- */
 
