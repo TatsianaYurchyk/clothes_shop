@@ -20,15 +20,15 @@ function Home() {
       <div className="round"> <div className="adv_text"><h2>SUMMER COLLECTION</h2> <p className="adv_text2">Now in stores <br />To get the look come <br /><a className="link">visit us </a></p></div></div>
       <p className="line"><span>summer 2023</span></p>
 
-      <div class="wrapper_pic">
+      <div className="wrapper_pic">
         <div className="container_pic"> <Image img alt="relax style" src={Pic1} className="pic" />
-        <div class="overlay">Relax style</div></div>
+        <div className="overlay">Relax style</div></div>
         <div className="container_pic"><Image img alt="holiday style" src={Pic2} className="pic" />
-        <div class="overlay">Holiday style</div></div>
+        <div className="overlay">Holiday style</div></div>
         <div className="container_pic"><Image img alt="casual style" src={Pic3} className="pic" />
-        <div class="overlay">Casual style</div></div>
+        <div className="overlay">Casual style</div></div>
         <div className="container_pic"><Image img alt="romantic style" src={Pic4} className="pic" />
-        <div class="overlay">Romantic style</div></div>
+        <div className="overlay">Romantic style</div></div>
 
       </div>
       <Footer />

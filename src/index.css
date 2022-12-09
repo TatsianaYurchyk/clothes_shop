@@ -99,7 +99,6 @@ code {
   text-decoration: none;
   color: white;
   line-height: 50px;
-
 }
 
 .menu_link:hover{
@@ -108,8 +107,6 @@ code {
 }
 .menu_link.active{
   background-color: palevioletred ;
-  /* padding:15.5px 40px;
-  text-decoration: none; */
 }
 
 
@@ -258,6 +255,19 @@ text-decoration: none;
 
 /* ------------Lookbook page style end------- */
 
+/* ------------WhereToBuy style start-------------- */
+.wrapper_addresses{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-auto-rows: 100px; */
+}
+.wrapper_subtitle{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+
+/* ------------WhereToBuy style end-------------- */
 /* ------------Footer style start-------------- */
 
 .footer{

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home';
 import Lookbook from './pages/Lookbook';
+import WhereToBuy from './pages/WhereToBuy';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   Routes,
@@ -31,6 +32,7 @@ function App() {
       <Route path="/" exact element={<Home />} />
       <Route path="/Home" element={<Home />} />
       <Route path="/Lookbook" element={<Lookbook />} />
+      <Route path="/WhereToBuy" element={<WhereToBuy />} />
     </Routes>
     </div>
   );
