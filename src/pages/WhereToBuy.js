@@ -17,10 +17,11 @@ const WhereToBuy = () => {
         <Container className="mt-3 px-5">
             <Header />
             <h1> WHERE TO BUY</h1>
+            <div className="contaier_addresses">
             <div className="wrapper_addresses">
                 <div className="wrapper_subtitle"><p> Find us where you are <br />Choose your best place to look perfect</p></div>
                 {items.map((item) => (
-                    <Card key={items.id}>
+                    <Card key={items.id} border="light">
                         <Card.Body>
                             <Card.Title>{item.title}</Card.Title>
 
@@ -53,6 +54,7 @@ const WhereToBuy = () => {
        
       </Card.Body>
     </Card> */}
+            </div>
             </div>
             <Footer />
         </Container>
