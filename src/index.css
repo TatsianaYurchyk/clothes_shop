@@ -76,23 +76,40 @@ code {
  
 }
 
-.menu {
+/* .menu {
   background-color: black;
   color: white;
   height: 50px;
   vertical-align: middle;
-  line-height: 50px;
+  line-height: 50px; */
   /* margin: 10px; */
   /* padding: 5px 12px; */
   /* margin: 0px 12px; */
+/* } */
+.menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: black;
+  color: white;
+  height: 50px;
 }
 
 .menu_link {
   padding: 0;
+  text-decoration: none;
+  color: white;
+  line-height: 50px;
+
 }
 
-.menu_link:hover, .menu_link:active{
+.menu_link:hover{
   background-color: palevioletred ;
+  color: #ffffff;
+}
+.menu_link.active{
+  background-color: palevioletred ;
+  /* padding:15.5px 40px;
+  text-decoration: none; */
 }
 
 

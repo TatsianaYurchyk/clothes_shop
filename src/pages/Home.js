@@ -2,8 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Container } from "react-bootstrap";
 import { Image } from "react-bootstrap";
-import { useNavigate } from "react-router-dom"
-import Main from "./cycle.webp";
+import Pic0 from "../img/home_page/cycle.webp";
 import Pic1 from "../img/home_page/pic1.webp";
 import Pic2 from "../img/home_page/pic2.webp";
 import Pic3 from "../img/home_page/pic3.webp";
@@ -12,12 +11,12 @@ import Pic4 from "../img/home_page/pic4.webp";
 
 
 function Home() {
-  const navigate = useNavigate();
+  
   return (
     <Container className="mt-3 px-5">
 
       <Header />
-      <Image img alt="Summer collection" src={Main} className="main_image" />
+      <Image img alt="Summer collection" src={Pic0} className="main_image" />
       <div className="round"> <div className="adv_text"><h2>SUMMER COLLECTION</h2> <p className="adv_text2">Now in stores <br />To get the look come <br /><a className="link">visit us </a></p></div></div>
       <p className="line"><span>summer 2023</span></p>
 

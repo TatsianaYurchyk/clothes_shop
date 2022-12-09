@@ -1,7 +1,6 @@
 
 import React, {useState, useEffect} from "react"
 import { Container } from "react-bootstrap";
-import { useNavigate } from "react-router-dom"
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Slide1 from "../img/lookbook_page/slide1.png";
@@ -12,7 +11,7 @@ import Slide5 from "../img/lookbook_page/slide5.png";
 import Slide6 from "../img/lookbook_page/slide7.png";
 
 const Lookbook = () => {
-  const navigate = useNavigate();
+  
   const img = [
     <img key={Slide1} src={Slide1} />,
     <img key={Slide2} src={Slide2} />,
