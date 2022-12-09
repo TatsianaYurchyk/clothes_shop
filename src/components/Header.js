@@ -5,10 +5,12 @@ import Lookbook from '../pages/Lookbook';
 import Home from '../pages/Home';
 import { useNavigate } from "react-router-dom"
 
+import { NavLink } from "react-router-dom";
+
 const Header = () => {
   const navigate = useNavigate();
     return (
-        <Container>
+        <Container className="px-0">
 
             <p className="line"><span>LILLY COLLECTION</span></p>
 
@@ -28,13 +30,18 @@ const Header = () => {
           
         </Col>
       </Row>
-      <Row className='menu'>
-        <Col className='menu_link'onClick={()=>navigate("/HOME")}>HOME</Col>
-        <Col className='menu_link'>SHOP</Col>
-        <Col className='menu_link' onClick={() => navigate("/Lookbook")}>LOOKBOOK</Col>
-        <Col className='menu_link'>WHERE TO BUY</Col>
-        <Col className='menu_link'>VISIT US</Col>
-      </Row>
+      <div className='menu'>
+        {/* <Col className='menu_link'onClick={()=>navigate("/HOME")}>HOME</Col> */}
+        <NavLink to='/Home' className='menu_link' activeClassName={"nav-link-selected"}>HOME</NavLink>
+        <NavLink to='/Lookbook' className='menu_link' activeClassName={"nav-link-selected"}>SHOP</NavLink>
+        {/* <Col className='menu_link'>SHOP</Col> */}
+        {/* <Col className='menu_link' onClick={()=>navigate("/Lookbook")}>LOOKBOOK</Col> */}
+        <NavLink to='/Lookbook' className='menu_link' activeClassName={"nav-link-selected"}>LOOKBOOK</NavLink>
+        <NavLink to='/Lookbook' className='menu_link' activeClassName={"nav-link-selected"}> WHERE TO BUY</NavLink>
+        <NavLink to='/Lookbook' className='menu_link' activeClassName={"nav-link-selected"}>VISIT US</NavLink>
+        {/* <Col className='menu_link'>WHERE TO BUY</Col>
+        <Col className='menu_link'>VISIT US</Col> */}
+      </div>
 
         </Container>
 
