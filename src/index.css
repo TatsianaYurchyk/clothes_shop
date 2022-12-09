@@ -226,13 +226,16 @@ text-decoration: none;
     height: 100%;
    
 }
+.slider-img:hover{
+  opacity: 0.5;
+}
 
 .slider-img-prev {
-  transform: translateX(-10%);
+  transform: translateX(-5%);
 }
 
 .slider-img-next {
-  transform: translateX(10%);
+  transform: translateX(5%);
 }
 
 

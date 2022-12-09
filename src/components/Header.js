@@ -1,10 +1,12 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Container } from "react-bootstrap";
-
+import Lookbook from '../pages/Lookbook';
+import Home from '../pages/Home';
+import { useNavigate } from "react-router-dom"
 
 const Header = () => {
-
+  const navigate = useNavigate();
     return (
         <Container>
 
@@ -27,9 +29,9 @@ const Header = () => {
         </Col>
       </Row>
       <Row className='menu'>
-        <Col className='menu_link'>HOME</Col>
+        <Col className='menu_link'onClick={()=>navigate("/HOME")}>HOME</Col>
         <Col className='menu_link'>SHOP</Col>
-        <Col className='menu_link'>LOOKBOOK</Col>
+        <Col className='menu_link' onClick={() => navigate("/Lookbook")}>LOOKBOOK</Col>
         <Col className='menu_link'>WHERE TO BUY</Col>
         <Col className='menu_link'>VISIT US</Col>
       </Row>

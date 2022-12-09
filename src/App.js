@@ -3,6 +3,10 @@ import './App.css';
 import Home from './pages/Home';
 import Lookbook from './pages/Lookbook';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
@@ -22,7 +26,12 @@ function App() {
         </a>
       </header> */}
       {/* <Home/> */}
-      <Lookbook/>
+      {/* <Lookbook/> */}
+      <Routes>
+      <Route path="/" exact element={<Home />} />
+      <Route path="/Home" element={<Home />} />
+      <Route path="/Lookbook" element={<Lookbook />} />
+    </Routes>
     </div>
   );
 }

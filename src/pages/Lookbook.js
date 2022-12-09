@@ -1,6 +1,7 @@
 
 import React, {useState, useEffect} from "react"
 import { Container } from "react-bootstrap";
+import { useNavigate } from "react-router-dom"
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Slide1 from "../img/lookbook_page/slide1.png";
@@ -11,6 +12,7 @@ import Slide5 from "../img/lookbook_page/slide5.png";
 import Slide6 from "../img/lookbook_page/slide7.png";
 
 const Lookbook = () => {
+  const navigate = useNavigate();
   const img = [
     <img key={Slide1} src={Slide1} />,
     <img key={Slide2} src={Slide2} />,
@@ -32,7 +34,7 @@ useEffect(() => {
             // Возвращаем индекс
             return res
         })
-    }, 3000)
+    }, 6000)
     // Выключаем интервал
     return () => clearInterval()
 }, [])
@@ -56,10 +58,12 @@ const nextImgIndex = activeIndex === img.length - 1 ? 0 : activeIndex + 1
         
         
       </div> */}
-      <div className="slider">
+      <div className="slider" onMouseEnter={() => clearInterval()}
+        >
         <div className="slider-img slider-img-prev"
                 key={prevImgIndex}>
             {img[prevImgIndex]}
+            
         </div>
         <div className="slider-img"
                 key={activeIndex}>

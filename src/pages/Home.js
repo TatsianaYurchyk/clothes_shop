@@ -1,11 +1,8 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { Button } from 'react-bootstrap';
 import { Container } from "react-bootstrap";
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import { Image } from "react-bootstrap";
-
+import { useNavigate } from "react-router-dom"
 import Main from "./cycle.webp";
 import Pic1 from "../img/home_page/pic1.webp";
 import Pic2 from "../img/home_page/pic2.webp";
@@ -15,6 +12,7 @@ import Pic4 from "../img/home_page/pic4.webp";
 
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <Container className="mt-3 px-5">
 
