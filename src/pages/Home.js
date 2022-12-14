@@ -13,6 +13,8 @@ import Pic4 from "../img/home_page/pic4.webp";
 function Home() {
   
   return (
+    
+
     <Container className="mt-3 px-5">
 
       <Header />
@@ -30,9 +32,11 @@ function Home() {
         <div className="container_pic"><Image img alt="romantic style" src={Pic4} className="pic" />
         <div className="overlay">Romantic style</div></div>
 
+      
       </div>
       <Footer />
     </Container>
+    
   );
 }
 

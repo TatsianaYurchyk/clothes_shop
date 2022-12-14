@@ -10,7 +10,9 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
     return (
-        <Container className="px-0">
+        <Container className="px-0 " >
+          
+          
 
             <p className="line"><span>LILLY COLLECTION</span></p>
 
@@ -42,7 +44,7 @@ const Header = () => {
         {/* <Col className='menu_link'>WHERE TO BUY</Col>
         <Col className='menu_link'>VISIT US</Col> */}
       </div>
-
+      
         </Container>
 
     );

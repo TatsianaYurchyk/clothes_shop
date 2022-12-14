@@ -14,7 +14,8 @@ const WhereToBuy = () => {
     ];
 
     return (
-        <Container className="mt-3 px-5">
+        <Container className="mt-3 px-5 ">
+            <div className="d-flex flex-column min-vh-100">
             <Header />
             <h1> WHERE TO BUY</h1>
             <div className="contaier_addresses">
@@ -35,25 +36,7 @@ const WhereToBuy = () => {
                         </Card.Body>
                     </Card>
                 ))}
-
-
-
-
-                {/* <Card >
-      <Card.Body>
-        <Card.Title>NYC</Card.Title>
-       
-        <Card.Text>
-            <pre>
-            500 Terry Francois St.
-            San Francisco, CA 94158
-            T 123-456-7890
-            </pre>
-      
-        </Card.Text>
-       
-      </Card.Body>
-    </Card> */}
+ </div>
             </div>
             </div>
             <Footer />

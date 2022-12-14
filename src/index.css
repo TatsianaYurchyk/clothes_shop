@@ -8,6 +8,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+ 
 }
 
 code {
@@ -280,21 +282,32 @@ text-decoration: none;
   color: white;
   display: flex;
   flex-wrap: wrap;
-  position: relative;
+  /* position: relative; */
   justify-content: space-between;
   vertical-align: center;
+  /* position: fixed;
+  
+  bottom: 0; */
+  width: auto;
+
+  /* overflow: hidden; */
   /* display: grid;
   grid-template-columns: 1fr 1fr; */
   
-  padding: 10px 10px 0px 20px;
+  padding: 10px 10px 0px 0px;
+ 
   margin-top: 20px;
   font-size: 14px;
+
+  position: relative;
+  height: 100%;
+  
 }
 .media{
   scale: 0.3;
-  position: absolute;
+  /* position: absolute;
   left: 80%;
-  top: -30%;
+  top: -30%; */
   cursor: pointer;
 }
 
