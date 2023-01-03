@@ -16,8 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,5 +40,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://TatsianaYurchyk.github.io/clothes_shop"
+  "homepage": "http://TatsianaYurchyk.github.io/clothes_shop",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
