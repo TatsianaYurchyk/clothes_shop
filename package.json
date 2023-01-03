@@ -1,4 +1,5 @@
 {
+  "homepage": "http://TatsianaYurchyk.github.io/clothes_shop",
   "name": "clothes_shop",
   "version": "0.1.0",
   "private": true,
@@ -40,7 +41,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://TatsianaYurchyk.github.io/clothes_shop",
+ 
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
