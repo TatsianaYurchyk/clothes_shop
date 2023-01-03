@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/clothes_shop/static/css/main.4d553213.css",
+    "main.js": "/clothes_shop/static/js/main.2d256210.js",
+    "static/js/787.552fe615.chunk.js": "/clothes_shop/static/js/787.552fe615.chunk.js",
+    "static/media/slide1.png": "/clothes_shop/static/media/slide1.3d9d311287c0e7b5902b.png",
+    "static/media/slide2.png": "/clothes_shop/static/media/slide2.b7d3c9921faa03c8d2a2.png",
+    "static/media/slide4.png": "/clothes_shop/static/media/slide4.4d6900ac202f00e949f4.png",
+    "static/media/slide5.png": "/clothes_shop/static/media/slide5.e3cdee721f35f18137df.png",
+    "static/media/slide7.png": "/clothes_shop/static/media/slide7.ac3c8784420ea0cb5799.png",
+    "static/media/slide3.png": "/clothes_shop/static/media/slide3.8ea84d312ddd2b76b386.png",
+    "static/media/cycle.webp": "/clothes_shop/static/media/cycle.760072a2ec3662dce7b5.webp",
+    "static/media/pic3.webp": "/clothes_shop/static/media/pic3.c488128fcb55db4dda35.webp",
+    "static/media/pic1.webp": "/clothes_shop/static/media/pic1.2126a5115cc00d5e653a.webp",
+    "static/media/pic4.webp": "/clothes_shop/static/media/pic4.87e596fa5bd3da118f2c.webp",
+    "static/media/pic2.webp": "/clothes_shop/static/media/pic2.5842afa237a9a1b71367.webp",
+    "static/media/logo.svg": "/clothes_shop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/clothes_shop/index.html",
+    "main.4d553213.css.map": "/clothes_shop/static/css/main.4d553213.css.map",
+    "main.2d256210.js.map": "/clothes_shop/static/js/main.2d256210.js.map",
+    "787.552fe615.chunk.js.map": "/clothes_shop/static/js/787.552fe615.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d553213.css",
+    "static/js/main.2d256210.js"
+  ]
+}
